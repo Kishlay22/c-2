@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
  
 void main()
 {
@@ -11,7 +11,6 @@ void main()
        scanf("%d", &heap[i]);
     for (i = 1; i < no; i++)
     {
-        c = i;
         do
         {
             root = (c - 1) / 2;             
